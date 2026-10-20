@@ -1,0 +1,5 @@
+# Дополнительные библиотеки для существующего окружения с PyTorch.
+matplotlib
+ipykernel
+scikit-learn
+kagglehub

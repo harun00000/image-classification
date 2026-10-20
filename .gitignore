@@ -1,0 +1,22 @@
+# Виртуальное окружение
+.venv/
+
+# Датасет
+data/
+
+# Веса моделей (кроме лучшей)
+models/*.pth
+models/*.pt
+!models/best_cnn_augmented.pth
+
+# Python и Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Локальные настройки и секреты
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
