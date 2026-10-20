@@ -196,7 +196,7 @@ def main():
     accuracy, sample_count, model_info = st.columns(3)
     accuracy.metric("Test accuracy", "82.7%")
     sample_count.metric("Test images", "3,000")
-    model_info.metric("Model", "SimpleCNN")
+    model_info.metric("Model", "SimpleCNN + Augmentation")
     st.caption("Built with PyTorch · evaluated on an independent test set")
 
     st.subheader("Supported categories")
